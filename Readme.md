@@ -1,6 +1,7 @@
 # Digit Classification Model
 
 This project implements a basic digit classification model using the MNIST dataset, a standard benchmark dataset for image classification tasks. The model is designed to classify grayscale 28x28 images of handwritten digits (0-9) into their respective categories.
+![Dataset_example](digit_7.png)
 
 ## Features
 - **Dataset**: The model uses the MNIST dataset with 60,000 training images and 10,000 test images.
@@ -23,11 +24,6 @@ You can install the dependencies using:
 pip install tensorflow numpy matplotlib seaborn
 ```
 
-### Run the Model
-Execute the script to train and evaluate the model:
-```bash
-python digit_classification.py
-```
 
 ## Model Improvements
 
@@ -51,6 +47,7 @@ python digit_classification.py
 
 ## Visualization
 The confusion matrix heatmap provides insights into the model's predictions, highlighting areas of improvement for specific digit classifications.
+![HeatMap](heatmap.png)
 
 ## Conclusion
 The digit classification model demonstrates a systematic improvement in accuracy with architectural enhancements and training refinements. It serves as a foundational project for understanding image classification using neural networks.
